@@ -3,10 +3,10 @@
 }
 
 .title-our-products {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
+  font-weight: var(--section-title-font-weight);
+  font-size: var(--mobile-title-font-size);
+  line-height: var(--mobile-titile-line-height);
+  letter-spacing: var(--mobile-title-letter-spasing);
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 32px;
@@ -59,35 +59,31 @@
 }
 
 .title-img-our-products {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: -0.02em;
+  font-weight: var(--mobile-title-font-weight);
+  font-size: var(--secondary-title-font-size);
+  line-height: var(--secondary-title-second-line-height);
+  letter-spacing: var(--secondary-title-letter-spasing);
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 2px;
 }
 .description-img-our-products {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
+  font-weight: var(--secondary-text-card-font-weight);
+  font-size: var(--secondary-text-font-size);
+  line-height: var(--secondary-text-line-height);
+  letter-spacing: var(--secondary-text-letter-spasing);
   text-align: center;
   color: var(--light-dark-text-color);
   margin-bottom: 18px;
 }
 
 .button-order-our-products {
-  font-family: var(--font-family);
-  font-style: normal;
   min-width: 94px;
   height: 33px;
   padding: 8px 20px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.21;
+  font-weight: var(--botton-font-weight);
+  font-size: var(--main-text-font-size);
+  line-height: var(--main-text-line-height);
   color: var(--main-dark-color);
   background: var(--light-color);
   border: 1px solid var(--border-color);
@@ -107,7 +103,7 @@
   }
 
   .title-our-products {
-    font-size: 24px;
+    font-size: var(--section-title-font-size);
     margin-bottom: 50px;
   }
 
