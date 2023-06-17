@@ -58,6 +58,11 @@
   border-radius: 15px;
 }
 
+.img-our-products {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title-img-our-products {
   font-weight: var(--mobile-title-font-weight);
   font-size: var(--secondary-title-font-size);
