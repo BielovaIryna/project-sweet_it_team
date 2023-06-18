@@ -1,12 +1,12 @@
-let swiper = new Swiper('.swiper', {
+let swiperd = new Swiperd('.swiper', {
   direction: 'horizontal',
   loop: false,
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-ds',
     clickable: true,
   },
   slidesPerView: 1,
-  spaceBetween: 20,
+  spaceBetween: 18,
   breakpoints: {
     768: {
       slidesPerView: 2.5,
