@@ -11,8 +11,10 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
-    <script type="module" crossorigin src="/project-taste_the_magic/assets/index-edf0239f.js"></script>
-    <link rel="stylesheet" href="/project-taste_the_magic/assets/index-97843cec.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <script type="module" crossorigin src="/project-taste_the_magic/assets/index-8a48559b.js"></script>
+    <link rel="stylesheet" href="/project-taste_the_magic/assets/index-edf99411.css">
   </head>
   <body>
     
@@ -1139,21 +1141,29 @@
         <span class="review-form-name">Enter your email</span></label
       >
 
-      <label class="review-form-field" for="phone">
-        <span class="review-form-input-border">+380</span>
-        <input
-          class="review-form-input-phone"
-          type="tel"
-          id="phone"
-          name="phone"
-          required
-          pattern="\+?[0-9\s\-\(\)]+"
-          placeholder=" "
-        />
-        <span class="review-form-name-phone">Phone number</span>
-        <svg class="review-modal-icon-flag" width="24" height="18">
-          <use href="/project-taste_the_magic/assets/sprite-98bd0590.svg#icon-ukr"></use>
-        </svg>
+      <label class="review-form-field select-box" for="phone">
+        <div class="selected-option">
+          <div>
+            <span class="iconify review-modal-icon-flag" data-icon="flag:ua-4x3"></span>
+            <strong class="review-form-input-border">+380</strong>
+          </div>
+          <input
+            class="review-form-input-phone"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="\+?[0-9\s\-\(\)]+"
+            required
+            placeholder=" "
+          >
+          <span class="review-form-name-phone">Phone number</span>
+        </div>
+        <div class="options">
+          <input type="text" class="search-box" placeholder="Search Country Name">
+          <ol>
+
+          </ol>
+        </div>
       </label>
 
       <label class="review-form-field" for="comment">
