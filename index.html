@@ -13,8 +13,8 @@
     
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
-    <script type="module" crossorigin src="/project-taste_the_magic/assets/index-8a48559b.js"></script>
-    <link rel="stylesheet" href="/project-taste_the_magic/assets/index-edf99411.css">
+    <script type="module" crossorigin src="/project-taste_the_magic/assets/index-8b11ac54.js"></script>
+    <link rel="stylesheet" href="/project-taste_the_magic/assets/index-ab22a6d0.css">
   </head>
   <body>
     
@@ -795,7 +795,21 @@
   </div>
 </section>
 
-    
+    <section class="explore-section">
+  <div class="container explore-container">
+    <h2 class="explore-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+    <p class="explore-text">
+      From the velvety texture to the rich and complex flavor, our New Chocolate
+      is a true indulgence that will leave you craving more. Made with only the
+      finest ingredients and handcrafted with the utmost care, each piece is a
+      work of art that is sure to please.
+    </p>
+    <button type="button" class="explore-button subscribe-data-modal-open">
+      Subscribe
+    </button>
+  </div>
+</section>
+
     
   </main>
     <footer class="footer" id="footer">
@@ -1175,7 +1189,38 @@
   </div>
 </div>
 
-    
+    <div class="subscribe-backdrop subscribe-data-modal is-hidden-subscribe">
+  <div class="subscribe-modal">
+    <button
+      type="button"
+      class="subscribe-modal-close-btn subscribe-data-modal-close"
+    >
+      <svg class="subscribe-close-svg" width="28" height="28">
+        <use href="/project-taste_the_magic/assets/sprite-98bd0590.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <div class="subscribe-bacground-img"></div>
+    <p class="subscribe-text margin-for-text">Explore our</p>
+    <p class="subscribe-text">
+      <span class="subscribe-text-span">new chocolate</span> first!
+    </p>
+    <form name="form" class="subscribe-form">
+      <label name="name" class="subscribe-form-button">
+        <input
+          placeholder="Enter your email"
+          class="subscribe-label-input"
+          name="email-subscribe"
+          type="email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+          title
+        />
+      </label>
+      <button class="subscribe-button-form" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
